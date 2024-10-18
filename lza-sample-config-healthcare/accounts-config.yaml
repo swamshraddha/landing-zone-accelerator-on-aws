@@ -1,0 +1,37 @@
+mandatoryAccounts:
+- name: Management
+  description: The management (primary) account. Do not change the name field for this mandatory account. Note, the account name key does not need to match the AWS account name.
+  email: shraddhasable312@gmail.com
+  organizationalUnit: Root
+
+- name: LogArchive
+  description: The log archive account. Do not change the name field for this mandatory account. Note, the account name key does not need to match the AWS account name.
+  email: shraddhasable312+LogArchive@gmail.com
+  organizationalUnit: Security
+
+- name: Audit
+  description: The security audit account (also referred to as the audit account). Do not change the name field for this mandatory account. Note, the account name key does not need to match the AWS account name.
+  email: shraddhasable312+Audit@gmail.com
+  organizationalUnit: Security
+
+workloadAccounts:
+- name: Network-Dev
+  description: The Network Dev account
+  email: anupd2799+NetworkDev@gmail.com
+  organizationalUnit: Infrastructure/Infra-Dev
+
+- name: Network-Prod
+  description: The Network Prod account
+  email: anupd2799+NetworkProd@gmail.com
+  organizationalUnit: Infrastructure/Infra-Prod
+
+- name: Pacs-Non_prod
+  description: The Non Prod PACS account
+  email: anupd2799+PacsNonprod@gmail.com
+  organizationalUnit: HIS/HIS-Non-Prod
+
+- name: Pms-Prod
+  description: The PMS prod account
+  email: anupd2799+HISNonProd@gmail.com
+  organizationalUnit: HIS/HIS-Prod
+
