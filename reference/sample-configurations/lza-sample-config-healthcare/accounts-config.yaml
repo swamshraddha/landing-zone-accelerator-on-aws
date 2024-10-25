@@ -22,7 +22,7 @@ workloadAccounts:
 - name: Network-Dev
   description: The Network Dev account
   email: shraddhasable312+NetworkDev@gmail.com
-  organizationalUnit: Infrastructure/Infra-Dev-1
+  organizationalUnit: Infrastructure/Infra-Dev
 
 - name: Network-Prod
   description: The Network Prod account
